@@ -304,7 +304,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">详细信息</h5>
+        <h5 class="modal-title" id="exampleModalLabel">More Detailed Information</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -448,8 +448,8 @@ function list_package(package_list,package_table)
     var package_info  = package_list[i];
     var td_option     = ""
 
-    var info_btn      = "<button type=\"button\"  value=\""+package_info["name"]+"\" data-toggle=\"modal\" data-target=\"#package_info_Modal\"  class=\"btn btn-outline-info btn-sm\">信息</button>";
-    var uninstall_btn = "<button type=\"button\"  value=\""+package_info["name"]+"\"   class=\"btn btn-outline-danger btn-sm\">卸载</button>"
+    var info_btn      = "<button type=\"button\"  value=\""+package_info["name"]+"\" data-toggle=\"modal\" data-target=\"#package_info_Modal\"  class=\"btn btn-outline-info btn-sm\">Info</button>";
+    var uninstall_btn = "<button type=\"button\"  value=\""+package_info["name"]+"\"   class=\"btn btn-outline-danger btn-sm\">Uninstall</button>"
 
     var td_checkbox =   "<td><div class=\"custom-control custom-checkbox\">\
         <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck"+i+"\">\
